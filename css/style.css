@@ -1,1 +1,100 @@
-/* All style should go in this document. */
+/* Ilya Ilyankou's Personal Website Stylesheet */
+
+body {
+    background-color: #ffffff;
+    color: #ffffff;
+    background-image: url("../img/transparent.png");
+    background-repeat: repeat;
+    font-family: Helvetica, sans-serif;
+    font-size: 14pt;
+    font-weight: 400;
+    padding: 0px;
+    margin: 0px;
+}
+
+.container {
+    width: 75%;
+    float: right;
+    margin-bottom: 15px;
+}
+
+.box {
+    width: 67%;
+    margin: 0px;
+    padding: 0 10px 0 10px;
+    float: left;
+}
+
+.to-the-left {
+    margin-left: -30px;
+}
+
+.to-the-right {
+    margin-left: 30px;
+}
+
+
+p {
+    margin: 15px 5px 15px 5px;
+}
+
+a {
+    color: #ffffff;
+}
+
+.portrait {
+    background-image: url("../img/self.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+}
+
+.hammer {
+    background-image: url("../img/hammer.png");
+    background-position: right center;
+    background-repeat: no-repeat;
+}
+
+ul.menu {
+    list-style: none;
+    margin: 10px 0 10px 0;
+    padding: 0px;
+}
+
+ul.menu li {
+    display: inline;
+    margin-left: 5px;
+    margin-right: 20px;
+}
+
+.project img {
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+/* Headers */
+h1 {
+    font-family: "Allerta Stencil";
+    font-weight: normal;
+    font-size: 29pt;
+    margin: 0px;
+    padding: 5px;
+}
+
+h2 {
+    font-size: 20pt;
+    margin: 0px;
+    padding: 5px;
+    font-weight: normal;
+}
+
+/* Background Colors */
+.green {background-color: #40c100;}
+.red {background-color: #bf33ed;}
+.blue {background-color: #6666ff;}
+.blue-2 {background-color: #4b67c0;}
+.blue-3 {background-color: #0f204b;}
+.purple {background-color: #614bc0;}
+.orange {background-color: #ffc100;}
+.black {background-color: #272727;}
